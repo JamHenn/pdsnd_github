@@ -81,7 +81,7 @@ def get_filters():
                     # for all other days, the first character is the key
                     else:
                         day = day_dict[day_key[0]]
-                    print('You will now be shown data from ' + day.title() + '. If you do not want to explore the data from this day, please restart the program now!')
+                    print('You will now be shown data from {}. If you do not want to explore the data from this day, please restart the program now!'.format(day.title()))
                     print('\n')
                     break
                 # if user input is blank
