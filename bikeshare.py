@@ -28,7 +28,7 @@ def get_filters():
         try:
             first_letter = input('Would you like to explore data from Chicago, New York, or Washington?\n')[0].lower()
             city = city_dict[first_letter]
-            print('You will now be shown data from ' + city.title() + '. If you do not want to explore the data from this city, please restart the program now!')
+            print('You will now be shown data from {}. If you do not want to explore the data from this city, please restart the program now!'.format(city.title()))
             print('\n')
             break
         # if user input is blank
